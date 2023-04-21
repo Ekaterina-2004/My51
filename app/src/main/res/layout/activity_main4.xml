@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    tools:context=".MainActivity4">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="90dp"
+            android:text="🖐️  Добро пожаловать!"
+            android:textColor="@color/black"
+            android:textSize="27dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:text="Войдите, чтобы пользоваться функциями"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="0dp"
+            android:text="приложения"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="100dp"
+            android:text="Вход по E-mail" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/EMAIL_ADDRESS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="18"
+        android:hint="example@mail.ru"
+        android:paddingLeft="15dp"
+        android:paddingTop="2dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/bg"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#C9D4FB"
+        android:onClick="onClick"
+        android:text="Далее"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Или войдите с помощью" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:text="Войти с Яндекс"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#FFFFFF"
+        android:layout_gravity="center_horizontal"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity9">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:paddingTop="25dp">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="#FFFFFF"
+            android:onClick="onClick2"
+            android:text="Пропустить"
+            android:textColor="#57A9FF"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icon" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:layout_width="410dp"
+                android:layout_height="500dp">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:text="Анализы"
+                    android:textColor="#00B712"
+                    android:textSize="20dp"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="273dp" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="90dp"
+                    android:text="Экспресс сбор и получение проб" />
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="150dp"
+                    app:srcCompat="@drawable/group" />
+
+                <ImageView
+                    android:id="@+id/imageView24"
+                    android:layout_width="234dp"
+                    android:layout_height="229dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="220dp"
+                    app:srcCompat="@drawable/illustration" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="410dp"
+                android:layout_height="500dp">
+
+                <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Уведомления"
+                android:textSize="20dp"
+                android:layout_marginTop="50dp"
+                android:textColor="#00B712"
+                    android:layout_gravity="center_horizontal"
+                tools:layout_editor_absoluteX="139dp"
+                tools:layout_editor_absoluteY="273dp" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="90dp"
+                    android:text="Вы быстро узнаете о результатах" />
+
+                <ImageView
+                    android:id="@+id/imageView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="150dp"
+                    app:srcCompat="@drawable/groupp" />
+
+                <ImageView
+                    android:id="@+id/imageView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="220dp"
+                    app:srcCompat="@drawable/fon" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="410dp"
+                android:layout_height="500dp">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:text="Мониторинг"
+                    android:textColor="#00B712"
+                    android:textSize="20dp"
+                    tools:layout_editor_absoluteX="139dp"
+                    tools:layout_editor_absoluteY="273dp" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="90dp"
+                    android:text="Наши врачи всегда наблюдают" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="110dp"
+                    android:text="за вашими показателями" />
+
+                <ImageView
+                    android:id="@+id/imageView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="150dp"
+                    app:srcCompat="@drawable/group_f" />
+
+                <ImageView
+                    android:id="@+id/imageView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="220dp"
+                    app:srcCompat="@drawable/gbuhj" />
+            </FrameLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity5">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:onClick="onClicko"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Введите код из E-mail"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#939396"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginTop="100dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:maxLength="1"
+            android:gravity="center"
+            android:inputType="number"
+            android:background="@drawable/input"/>
+
+        <EditText
+            android:id="@+id/editTextNumber2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:maxLength="1"
+            android:gravity="center"
+            android:ems="10"
+            android:layout_marginLeft="10dp"
+            android:inputType="number"
+            android:background="@drawable/input"/>
+
+        <EditText
+            android:id="@+id/editTextNumber3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:maxLength="1"
+            android:gravity="center"
+            android:ems="10"
+            android:layout_marginLeft="10dp"
+            android:inputType="number"
+            android:background="@drawable/input"/>
+
+        <EditText
+            android:id="@+id/editTextNumber4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:maxLength="1"
+            android:gravity="center"
+            android:ems="10"
+            android:layout_marginLeft="10dp"
+            android:inputType="number"
+            android:background="@drawable/input"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#939396"
+        android:layout_gravity="center_horizontal"
+        android:text="Отправить код повторно можно" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#939396"
+        android:layout_gravity="center_horizontal"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:textColor="#939396"
+        android:layout_gravity="center_horizontal"
+        android:text="Отправить код повторно" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/blue"
+        android:onClick="onClickkkk"
+        android:text="Далее" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
